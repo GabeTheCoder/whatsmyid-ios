@@ -2,11 +2,6 @@
 import SwiftUI
 import NotPWA2
 
-enum BridgeHook: String {
-    case fetchContacts
-    case fetchPhotos
-}
-
 struct BridgeError: Error {
     let code: String
     let message: String
